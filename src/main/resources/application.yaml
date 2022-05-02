@@ -1,0 +1,9 @@
+some-prefix:
+  error-code-mapping:
+    - inputs:
+        - { errorId: "1" }
+        - { errorId: "1001" }
+        - { errorId: "1002" }
+      output: { indication1: false, status: status3 }
+    - input: { errorId: "17" }
+      output: { indication1: false, status: status2 }
